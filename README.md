@@ -1,6 +1,7 @@
 # Remove-Git-Permanent-Notification
 
-When your Github academic coupon expires, github gives you an annoying large red notification banner. This is a Greasemonkey script that removes it.
+When your Github academic coupon expires, github gives you an annoying large red notification banner. The banner remains even after you select to downgrade, and can remain for up to 12 months. 
+This repo has a Greasemonkey script that removes it.
 
 ## This is what the banner looks like:
 
