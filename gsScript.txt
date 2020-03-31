@@ -1,0 +1,20 @@
+// ==UserScript==
+// @name     Github Academic Expired remove notice
+// @version  1
+// @grant    none
+// @description  When acedemic coupon expires, github takes up to a year to downgrade you. This script removes the annoying banner warning.
+// @author       https://github.com/matthewbal
+// @match        https://github.com/*
+// @grant        none
+// lastupdate:   04/01/2020
+// ==/UserScript==
+
+
+
+console.log("Attempting to remove the annoying downgrade banner");
+
+var annoyingBanner = document.getElementsByClassName("flash flash-full js-notice flash-error"); 
+
+annoyingBanner[0].remove(); 
+
+console.log("Greasemokey removed the annoying downgrade banner");
