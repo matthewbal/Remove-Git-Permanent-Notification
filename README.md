@@ -14,4 +14,5 @@ When your Github academic coupon expires, github gives you an annoying large red
 4. Refresh github
 
 Enjoy!
+
 [banner]: https://i.imgur.com/8d0Y6ur.png
